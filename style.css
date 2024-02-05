@@ -162,6 +162,7 @@ position: relative;
     background-position: center;
     position: relative;
     box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+    border-radius: 5px;
 }
 .imgAbout2{
     width: 240px;
@@ -169,6 +170,8 @@ position: relative;
     position: relative;
     top: -100px;
     left: 320px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+    border-radius: 5px;
 }
 .about-us-content{
     padding-left: 100px;
