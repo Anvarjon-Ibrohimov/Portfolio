@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+:root{
+    --Playfair:"Playfair Display";
+    --Roboto:"Roboto", sans-serif;
+    --white:#fff;
+    --Quicksand:"Quicksand", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Roboto);
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top,rgba(209,107,165,0.5),rgba(134,168,231,0.5),rgba(95,251,241,0.4)),url(./images/registon.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    /* background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.logo h3{
+    color:var(--white);
+}
+.nav ul{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    padding: 0px 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--Roboto);
+}
+form{
+    background-color: #fff;
+    height: 40px;
+    padding: 0px 15px;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+}
+
+.search-input{
+    font-family: var(--Roboto);
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0px 10px;
+}
+.search-input::placeholder{
+    text-transform: capitalize;
+}
+.search-btn{
+height: 40px;
+width: 40px;
+color: #555;
+border: none;
+background-color: transparent;
+outline: none;
+cursor: pointer;
+}
+.main-content{
+    text-align: center;
+    margin-top: 13%;
+    font-family: var(--Quicksand);
+    color: var(--white);
+}
+.main-content h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.main-content p{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.main-content .mainBtn{
+    width: 200px;
+    height: 40px;
+    border-radius: 37px;
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    /* box-shadow: 5px 10px 15px rgba(0,0,0,0.7); */
+    /* background-color: transparent; */
+}
+.main-block{
+    width: 65%;
+    height: 100px;
+    margin:auto;
+    background-color: transparent;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+#region, #District, #luxure, #btnSub{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    opacity: 0.7;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #051937;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+}
+
+/* header end */
+
+section{
+    margin-top: 90px;
+    /* border: 4px solid red; */
+    width: 100%;
+    height: 706px;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.about-us-image{
+position: relative;
+/* padding-left: 40px */
+}
+.imgAbout1{
+    width: 520px;
+    height: 561px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+}
+.imgAbout2{
+    width: 240px;
+    height: 160px;
+    position: relative;
+    top: -100px;
+    left: 320px;
+}
+.about-us-content{
+    padding-left: 100px;
+    font-family: var(--Roboto);
+    color: #051937;
+    
+}
+.about-us-content h1{
+    font-size: 46px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-us-content .about_content{
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.about-us-cont{
+    display: flex;
+    margin-bottom: 40px;
+}
+.about-us-item i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about-us-item h6{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.aboutBtn{
+    width: 140px;
+    height: 40px;
+    border: none;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+    color: #fff;
+    font-size: 16px;
+    font-family: var(--Quicksand);
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #051937;
+}
+aside{
+    width: 100%;
+    height: 280px;
+    background-color: #051937;
+    background-image: linear-gradient(to right top,rgba(209,107,165,0.5),rgba(134,168,231,0.5),rgba(95,251,241,0.4)),url(./images/registon.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+aside h1{
+    text-align: center;
+    padding-top: 8%;
+    color: #fff;
+    font-size: 50px;
+}
+.places{
+    width: 100%;
+    height: 800px;
+}
