@@ -230,4 +230,108 @@ aside h1{
 .places{
     width: 100%;
     height: 800px;
+    margin-top: 50px;
+    text-align: center;
+}
+.places  h2{
+    color: #051937;
+    font-size: 35px;
+    margin-bottom: 26px;
+    text-transform: capitalize;
+}
+.places ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap:10px;
+}
+.places ul li a{
+    text-decoration: none;
+    color: #051937;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+.places ul li a:hover{
+    background-color: #051937;
+    color: #fff;
+}
+.places-container{
+    width: 980px;
+    height: 800px;
+    /* background-color:#051937; */
+    margin: 30px auto;
+    display: flex;
+    gap: 10px;
+}
+.places-item-1{
+    width: 500px;
+    height: 510px;
+    background-color: #E9F6FF;
+    border-radius: 10px;
+    background-image: linear-gradient(to right top,rgba(209,107,165,0.5),rgba(134,168,231,0.5),rgba(95,251,241,0.4)),url(./images/sam.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.places-item-1:hover{
+    background-image:url(./images/sam.jpeg);
+}
+    
+
+.places-item-group{
+    width: 580px;
+    height: 510px;
+    /* background-color: #E9F6FF; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.places-item-2{
+    background-color: #E9F6FF;
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right top,rgba(209,107,165,0.5),rgba(134,168,231,0.5),rgba(95,251,241,0.4)),url(./images/buxara.jpeg);
+    background-size: cover;
+}
+.places-item-2:hover{
+    background-image: url(./images/buxara.jpeg);
+}
+.places-item-3{
+    background-color:#E9F6FF;
+    width: 240px;
+    border-radius: 5px;
+    height: 240px;
+    background-image: linear-gradient(to right top,rgba(209,107,165,0.5),rgba(134,168,231,0.5),rgba(95,251,241,0.4)),url(./images/main.jpeg);
+    background-size: cover;
+}
+.places-item-3:hover{
+    background-image: url(./images/main.jpeg);
+}
+.places-item-4{
+    background-color: #E9F6FF;
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right top,rgba(209,107,165,0.5),rgba(134,168,231,0.5),rgba(95,251,241,0.4)),url(./images/central.jpeg);
+    background-size: cover;
+}
+.places-item-4:hover{
+    background-image: url(./images/central.jpeg);
+}
+.places-item-5{
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    background-color: #E9F6FF;
+    background-image: linear-gradient(to right top,rgba(209,107,165,0.5),rgba(134,168,231,0.5),rgba(95,251,241,0.4)),url(./images/pic.webp);
+    background-size: cover;
+}
+.places-item-5:hover{
+    background-image: url(./images/pic.webp);
 }
